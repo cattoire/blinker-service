@@ -1,0 +1,30 @@
+{
+    "org": "$HZN_ORG_ID",
+    "label": "$SERVICE_NAME for $ARCH",
+    "description": "",
+    "public": true,
+    "documentation": "",
+    "url": "$SERVICE_NAME",
+    "version": "$SERVICE_VERSION",
+    "arch": "$ARCH",
+    "sharable": "singleton",
+    "matchHardware": null,
+    "requiredServices": [],
+    "userInput": [],
+    "deployment": {
+        "services": {
+            "blinker-service": {
+                "environment": [
+                ],
+                "image": "${DOCKER_IMAGE_BASE}_$ARCH:$SERVICE_VERSION",
+                "ports": [
+                    {
+                        "HostIP": "0.0.0.0",
+                        "HostPort": "1883:1883/tcp"
+                    }
+                ],
+                "privileged": true
+            }
+        }
+    }
+}

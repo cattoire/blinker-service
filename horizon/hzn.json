@@ -1,0 +1,8 @@
+{
+    "HZN_ORG_ID": "eric_cattoir@be.ibm.com",
+    "MetadataVars": {
+        "DOCKER_IMAGE_BASE": "cattoire/blinker-service",
+        "SERVICE_NAME": "blinker-service",
+        "SERVICE_VERSION": "0.1"
+    }
+}
