@@ -1,0 +1,15 @@
+{
+    "name": "ec_dev",
+    "public": true,
+    "services": 
+    [
+        {"serviceUrl": "$SERVICE_NAME",
+            "serviceOrgid": "$HZN_ORG_ID",
+            "serviceArch": "$ARCH",
+            "serviceVersions": [ 
+                { "version": "0.1" 
+                } 
+                ]
+        }
+    ]
+}
