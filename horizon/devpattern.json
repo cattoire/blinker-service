@@ -1,6 +1,6 @@
 {
     "name": "ec_dev",
-    "public": true,
+    "public": false,
     "services": 
     [
         {"serviceUrl": "$SERVICE_NAME",
