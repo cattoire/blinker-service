@@ -3,6 +3,6 @@
     "MetadataVars": {
         "DOCKER_IMAGE_BASE": "cattoire/blinker-service",
         "SERVICE_NAME": "blinker-service",
-        "SERVICE_VERSION": "0.1"
+        "SERVICE_VERSION": "0.2"
     }
 }

@@ -17,12 +17,6 @@
                 "environment": [
                 ],
                 "image": "${DOCKER_IMAGE_BASE}_arm:$SERVICE_VERSION",
-                "ports": [
-                    {
-                        "HostIP": "0.0.0.0",
-                        "HostPort": "1883:1883/tcp"
-                    }
-                ],
                 "privileged": true
             }
         }
