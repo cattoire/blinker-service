@@ -5,7 +5,7 @@
     [
         {"serviceUrl": "$SERVICE_NAME",
             "serviceOrgid": "$HZN_ORG_ID",
-            "serviceArch": "$ARCH",
+            "serviceArch": "arm",
             "serviceVersions": [ 
                 { "version": "0.1" 
                 } 

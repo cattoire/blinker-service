@@ -6,7 +6,7 @@
     "documentation": "",
     "url": "$SERVICE_NAME",
     "version": "$SERVICE_VERSION",
-    "arch": "$ARCH",
+    "arch": "arm",
     "sharable": "singleton",
     "matchHardware": null,
     "requiredServices": [],
@@ -16,7 +16,7 @@
             "blinker-service": {
                 "environment": [
                 ],
-                "image": "${DOCKER_IMAGE_BASE}_$ARCH:$SERVICE_VERSION",
+                "image": "${DOCKER_IMAGE_BASE}_arm:$SERVICE_VERSION",
                 "ports": [
                     {
                         "HostIP": "0.0.0.0",
