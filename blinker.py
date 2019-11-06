@@ -7,9 +7,9 @@ GPIO.setup(10, GPIO.OUT, initial=GPIO.LOW)
 
 while True: # Run forever
     GPIO.output(8, GPIO.HIGH) # Turn on
-    GPIO.output(10, GPIO.LOW)
+#    GPIO.output(10, GPIO.LOW)
     sleep(1)                  # Sleep for 1 second
     
     GPIO.output(8, GPIO.LOW)  # Turn off
-    GPIO.output(10, GPIO.HIGH)
+ #   GPIO.output(10, GPIO.HIGH)
     sleep(1)                  # Sleep for 1 second value to low (off)
